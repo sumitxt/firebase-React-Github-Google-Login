@@ -1,9 +1,12 @@
 import HomePage from "./pages/HomePage";
+import Gitgoo from  "./components/home/Gitgoo"
 
 function App() {
   return (
     <div>
-      <HomePage></HomePage>
+      {/* <HomePage></HomePage> */}
+      <Gitgoo></Gitgoo>
+
     </div>
     );
 }
